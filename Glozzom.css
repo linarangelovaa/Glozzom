@@ -1,0 +1,243 @@
+html,body
+{
+  width: 100%;
+  height: 100%;
+    overflow-x: hidden;
+    margin: 0%;
+}
+.height5{
+  height: 5vh;
+}
+  .height10{
+    height: 10vh;
+  }
+  .height15{
+    height: 15vh;
+  }
+  .height30{
+    height: 15vh;
+    
+  }
+  .height35{
+    height: 35vh;
+  }
+  .height40{
+    height:40vh;
+  }
+  .height60{
+    height:60vh;
+  }
+  .height80{
+    height:80vh;
+  }
+  .height70{
+    height: 70vh;
+  }
+  .height120{
+    height: 120vh;
+  }
+  .picturesize{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  .fs{
+    font-size: 14px;
+  }
+  .fs1{
+    font-size: 12px;
+  }
+  .fs2{
+    font-size: 10px;
+  }
+  .fs3{
+      font-size: 8px;
+  }
+  .fs4{
+    font-size: 13px;
+  }
+  .carousel-inner
+  {
+      background-image: none;
+  }
+  .fas{
+    font-size: 50px;
+    color: #ffffff;}
+.fas:hover{
+    color: white;
+}
+ .active
+ { border-left: 1px solid #ffffff;
+}
+  .background1{
+    background: url(images/lights.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background:rgba(black, 0.5);
+   background-attachment: fixed;
+   height: auto;
+   }
+   .background2{
+    background: url(images/image1.jpg);
+    background-size: 100% 135%;
+    background-repeat: no-repeat;
+    background:rgba(black, 0.5);
+    background-attachment: fixed;
+    height: 55vh;
+   }
+
+   .txt{
+     padding-bottom: 100px;
+   }
+   .background3{
+    position: relative; 
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .background3::before{
+    content: "";
+    background-image: url("images/media.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    background-attachment: fixed;
+   }
+   .black{
+     background-color: black;
+   }
+   .background4{
+    background: url(images/image1.jpg);
+   background-size: 100% 135%;
+   background-repeat: no-repeat;
+   background:rgba(black, 0.5);
+   background-attachment: fixed;
+   height: 55vh;
+   }
+  .dark2{
+    background-color: #212121;
+  }
+
+  
+   .mb{
+     margin-bottom: 9%;
+   }
+   .padding20{
+     padding-top: 20vh;
+   }
+   .red{
+       background-color:#ff0000 ;
+   }
+   .photo-gallery {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    
+    color:inherit;
+  }    
+  #img-personwithglasses{
+      margin-left: 230%;
+      margin-top: 10%;
+      max-width: 100%;
+      position: absolute;
+    }
+  
+
+.paragraph{
+  font-size: 12px;
+}
+
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+    .offset-2{
+      margin:5%;
+    }
+    #img-laptop{
+      width: 200%;
+      height: 80%;
+    }
+    #img-personwithglasses{
+            margin-left: 290%;
+            margin-top: 170%;
+            max-width: 100%;
+          }
+    #services-one-two-three{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    #getintouch
+    {
+      flex-direction: column;
+      margin: 0%;
+    }
+    #people{
+      flex-direction: column;
+    }
+  }
+  @media (max-width:1024px) {
+    .height70{
+        height: auto;}
+      #img-personwithglasses{
+          margin-left: 290%;
+          margin-top: 170%;
+          max-width: 100%;
+        }
+    #services-one-two-three{
+          flex-direction: column;
+         
+        }
+      #questions{
+        flex-direction: column;
+      }
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  .img-fluid{
+    padding-bottom: 5%;
+    max-width: 95%;
+    
+  }
+  .bs-example{
+    margin: 20px;
+}
+.modal-dialog iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+

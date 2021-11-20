@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <title>Challenge_7</title>
+    <link rel="stylesheet" href="Glozzom.css">
+    <script>
+      $(document).ready(function(){
+    var url = $("#cartoonVideo").attr('src');
+    $("#myModal").on('hide.bs.modal', function(){
+        $("#cartoonVideo").attr('src', '');
+    });
+    $("#myModal").on('show.bs.modal', function(){
+        $("#cartoonVideo").attr('src', url);
+    });
+});
+      </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+          <a href="index.html" class="navbar-brand">GLOZZOM</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a href="Challenge_7.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="About us.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Contact up.html" class="nav-link">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+ <div class="col-lg-12 height70 px-0">
+  <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active height70">
+        <img src="images/image1.jpg" class="d-block w-100 height"alt="...">
+        <div class="carousel-caption text-right mb ">
+          <h2>Heading one</h2>
+          <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, set do eiusmod tempor incididun ut labore et dolore magna aligua</p>
+          <button type="button" class="btn btn-danger text-capitalize" data-toggle="button" aria-pressed="false">
+           sign up now
+          </button>
+        </div>
+      </div>
+      <div class="carousel-item height70">
+        <img src="images/image2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption mb ">
+          <h2>Heading two</h2>
+          <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, set do eiusmod tempor incididun ut labore et dolore magna aligua</p>
+          <button type="button" class="btn btn-primary text-capitalize" data-toggle="button" aria-pressed="false">
+            learn more
+           </button>
+        </div>
+      </div>
+      <div class="carousel-item height70 ">
+        <img src="images/image3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption mb">
+          <h2>Heading three</h2>
+          <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, set do eiusmod tempor incididun ut labore et dolore magna aligua</p>
+          <button type="button" class="btn btn-success text-capitalize" data-toggle="button" aria-pressed="false">
+            learn more
+           </button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ </div>
+ <div class="container-fluid">
+ <div class="row d-flex flex-lg-row flex-md-row flex-sm-row flex-column justify-content-center">
+   <div class="col-10m col-lg-3 col-md-3 m-auto text-center">
+     <div class="pt-3"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 0 0-5.86 2.929 2.929 0 0 0 0 5.858z"/>
+    </svg></div>
+     <p class="h6">Tyrning gears</p>
+     <p class="fs pb-2">Erat interpretaris ut mea,causae inimicus expetenda<br> an eam.
+    Adipiscing elit erant.</p>
+   </div>
+   <div class="col-10m col-lg-3 col-md-3 m-auto text-center">
+     <div class="pt-3"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+    </svg></div>
+    <p class="h6">Tyrning gears</p>
+     <p class="fs pb-2">Erat interpretaris ut mea,causae inimicus expetenda<br> an eam.
+    Adipiscing elit erant.</p>
+   </div>
+   <div class="col-10m col-lg-3 col-md-3 m-auto text-center">
+     <div class="pt-3"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+    </svg></div>
+    <p class="h6">Tyrning gears</p>
+     <p class="fs pb-2">Erat interpretaris ut mea,causae inimicus expetenda<br> an eam.
+    Adipiscing elit erant.</p>
+   </div>
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-12 text-center mt-3 mb-3 background1">
+   <h2 class="text-white mt-3">Are you ready to get started ?</h2>
+   <p class="text-white">Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6 col-lg-5 col-md-5 offset-2">
+    <h5>Lorem ipsum</h5>
+    <p class="">Sed up perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+    laudantium,totam rem aperiam,eaque ipsa quae ab illo inventore veritatis et quasi
+    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+    sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+    voluptatem sequi nesciunt.
+    </p>
+    <button type="button" class="btn btn-outline-danger">Learn more</button>
+  </div>
+  <div class="col-3 height35">
+    <img src="images/laptop.png" class="d-relative w-100" id="img-laptop">
+
+  </div>
+</div>
+<div class="row background3 bg-dark">
+  <div class="col-12 d-flex justify-content-center ">
+    <div class="bs-example ">
+      <a href="#myModal" class="fas fa-caret-right d-flex justify-content-center" data-toggle="modal"></a>
+      <p class="text-white">See what we do</p>
+      <div id="myModal" class="modal fade">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title"></h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe id="cartoonVideo" class="embed-responsive-item" width="560" height="315" src="//www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>     
+  </div>
+</div>
+<div class="container">
+  <div class="intro">
+      <h4 class="mt-3 text-center">Photo gallery</h4>
+        <p class="text-center">Check out our photos</p>
+          </div>
+          <div class="row photos m-auto">
+              <div class="col-sm-12 col-md-4 col-lg-4 item mt-3"><a href="images/1.png" data-lightbox="photos"><img class="img-fluid" src="images/1.png"></a></div>
+              <div class="col-sm-12 col-md-4 col-lg-4 item mt-3"><a href="images/2.png" data-lightbox="photos"><img class="img-fluid" src="images/2.png"></a></div>
+              <div class="col-sm-12 col-md-4 col-lg-4 item mt-3"><a href="images/3.png" data-lightbox="photos"><img class="img-fluid" src="images/3.png"></a></div>
+              <div class="col-sm-12 col-md-4 col-lg-4 item mt-3"><a href="images/4.png" data-lightbox="photos"><img class="img-fluid" src="images/4.png"></a></div>
+              <div class="col-sm-12 col-md-4 col-lg-4 item mt-3"><a href="images/5.png" data-lightbox="photos"><img class="img-fluid" src="images/5.png"></a></div>
+              <div class="col-sm-12 col-md-4 col-lg-4 item mt-3"><a href="images/6.png" data-lightbox="photos"><img class="img-fluid" src="images/6.png"></a></div>
+          </div>
+      </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+</body>
+
+</html>
+
+</div>
+ <div class="row bg-dark text-white mt-2">
+   <div class="col-12 h3 text-center pt-3 mt-2">Sign Up for our newsletter </div>
+   <div class="col-10 offset-1 text-center fs1 mb-3">Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Lorem ipsum dolor sit amet,consectetur
+   </div>
+   <div class="col-2 offset-3 form-group ">
+    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Name">
+  </div>
+  <div class=" col-2 form-group mb-3">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter E-mail">
+  </div>
+  <div class="col-2">
+       <input class="btn btn-primary" type="submit" value="Submit">
+  </div>  
+ </div>
+ <div class=" col-12 black text-white pt-2 text-center fs ">
+   <p class="mb-0 pb-3">Copiright 2018 © Glozzom </p>
+ </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </body>
+</html>
